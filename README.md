@@ -135,36 +135,36 @@ php8.2-zip        php8.2-intl       php8.2-bcmath
 
 ```bash
 # Download the script
-wget https://raw.githubusercontent.com/SnokOS/Install_Web_Server_Tools/main/snok.sh
+wget https://raw.githubusercontent.com/SnokOS/Install_Web_Server_Tools/install_webserver-v3.sh
 
 # Make it executable
-chmod +x snok.sh
+chmod +x install_webserver-v3.sh
 
 # Run with sudo
-sudo ./snok.sh
+sudo ./install_webserver-v3.sh
 ```
 
 Or use curl:
 
 ```bash
 # Download and run in one command
-curl -fsSL https://raw.githubusercontent.com/SnokOS/Install_Web_Server_Tools/main/snok.sh -o snok.sh && chmod +x snok.sh && sudo ./snok.sh
+curl -fsSL https://raw.githubusercontent.com/SnokOS/Install_Web_Server_Tools/install_webserver-v3.sh -o snok.sh && chmod +x install_webserver-v3.sh && sudo ./install_webserver-v3.sh
 ```
 
 ### Manual Installation
 
 ```bash
 # Create the script file
-nano snok.sh
+nano install_webserver-v3.sh
 
 # Paste the script content
 # Save and exit (Ctrl+X, Y, Enter)
 
 # Make executable
-chmod +x snok.sh
+chmod +x install_webserver-v3.sh
 
 # Run
-sudo ./snok.sh
+sudo ./install_webserver-v3.sh
 ```
 
 ---
@@ -175,7 +175,7 @@ sudo ./snok.sh
 
 1. **Run the Script**
    ```bash
-   sudo ./snok.sh
+   sudo ./install_webserver-v3.sh
    ```
 
 2. **Select Language**
@@ -265,7 +265,7 @@ Removes everything installed by Snok:
 - Configuration files
 
 ```bash
-sudo ./snok.sh
+sudo ./install_webserver-v3.sh
 → Choose "Uninstall & Clean"
 → Choose "Complete Uninstall"
 → Type "yes" to confirm
@@ -293,7 +293,7 @@ Remove only specific components:
 
 **Example Workflow:**
 ```bash
-sudo ./snok.sh
+sudo ./install_webserver-v3.sh
 → Uninstall & Clean
 → Selective Uninstall
 → Select Apache2 to remove
@@ -518,9 +518,9 @@ sudo tail -f /var/log/mysql/error.log
 [✓] PHP: 8.2
 
 Access:
-  🌐 http://192.168.1.106
-  📊 http://192.168.1.106/info.php
-  🗄️  http://192.168.1.106/phpmyadmin
+  🌐 http://localhost
+  📊 http://localhost/info.php
+  🗄️  http://localhost/phpmyadmin
 ```
 
 ---
