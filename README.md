@@ -1,270 +1,709 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<a id="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
+# 🚀 Snok Web Server - Professional Installer
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
-<br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
-  <h3 align="center">Best-README-Template</h3>
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Platform](https://img.shields.io/badge/platform-Debian%20%7C%20Ubuntu-orange.svg)
+![Shell](https://img.shields.io/badge/shell-bash-brightgreen.svg)
+![Developer](https://img.shields.io/badge/developer-Mahrez%20Ben%20Mohammed-purple.svg)
+![Company](https://img.shields.io/badge/company-SnokOS-red.svg)
 
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
-  </p>
+**Professional all-in-one web server installation script for Debian/Ubuntu based distributions**
+
+**Developed by [Mahrez Ben Mohammed](https://github.com/SnokOS) | [SnokOS](https://snokos.github.io/SnokOS/)**
+
+[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Languages](#-languages) • [Contact](#-contact)
+
 </div>
 
+---
 
+## 📋 Table of Contents
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+- [Overview](#-overview)
+- [Features](#-features)
+- [Supported Distributions](#-supported-distributions)
+- [What Gets Installed](#-what-gets-installed)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Languages](#-languages)
+- [Uninstallation](#-uninstallation)
+- [Configuration](#-configuration)
+- [Troubleshooting](#-troubleshooting)
+- [Contributing](#-contributing)
+- [License](#-license)
 
+---
 
+## 🌟 Overview
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+**Snok Web Server** is a comprehensive, production-ready installation script that automates the setup of a complete web server stack on Debian and Ubuntu-based Linux distributions. With multi-language support and intelligent configuration, it's perfect for developers, system administrators, and DevOps professionals.
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+---
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+## ✨ Features
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+### 🎯 Core Features
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+- **🌍 Multi-Language Support**: English, Français, العربية
+- **⚡ Interactive Installation**: User-friendly menu-driven interface
+- **🎨 Beautiful UI**: Colorful output with icons and progress indicators
+- **📦 Complete Stack**: Full LAMP/LEMP stack installation
+- **🔒 Security First**: Automatic firewall configuration and database hardening
+- **🗑️ Smart Uninstall**: Complete or selective component removal
+- **📝 Detailed Logging**: Comprehensive installation logs
+- **✅ Error Handling**: Robust error detection and recovery
 
-Use the `BLANK_README.md` to get started.
+### 🛠️ Flexible Configuration
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+#### Web Server Options:
+- 🌐 **Apache2** - The world's most popular web server
+- ⚡ **Nginx** - High-performance web server
 
+#### Database Options:
+- 🐬 **MariaDB** - Enhanced MySQL fork
+- 🐬 **MySQL** - Industry-standard relational database
 
+### 📦 Additional Components
 
-### Built With
+- **PHP 8.2** - Latest stable PHP with all major extensions
+- **phpMyAdmin** - Web-based database management
+- **UFW Firewall** - Automatically configured for security
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+---
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+## 💻 Supported Distributions
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Snok Web Server works on all Debian and Ubuntu-based distributions:
 
+### Ubuntu Family:
+- ✅ Ubuntu (20.04, 22.04, 24.04+)
+- ✅ Linux Mint
+- ✅ Pop!_OS
+- ✅ Elementary OS
+- ✅ Zorin OS
+- ✅ KDE Neon
+- ✅ Lubuntu / Kubuntu / Xubuntu
+- ✅ Ubuntu MATE
+- ✅ Bodhi Linux
 
+### Debian Family:
+- ✅ Debian (10, 11, 12+)
+- ✅ Kali Linux
+- ✅ Parrot OS
+- ✅ MX Linux
+- ✅ Raspbian (Raspberry Pi)
+- ✅ Deepin
+- ✅ Peppermint OS
 
-<!-- GETTING STARTED -->
-## Getting Started
+---
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+## 📦 What Gets Installed
+
+### Web Server Stack:
+
+| Component | Version | Purpose |
+|-----------|---------|---------|
+| Apache2 / Nginx | Latest | Web Server |
+| PHP | 8.2 | Server-side scripting |
+| MariaDB / MySQL | Latest | Database Server |
+| phpMyAdmin | 5.2+ | Database Management |
+| UFW | Latest | Firewall |
+
+### PHP Extensions Included:
+
+```
+php8.2-fpm        php8.2-common     php8.2-mysql
+php8.2-xml        php8.2-curl       php8.2-gd
+php8.2-cli        php8.2-mbstring   php8.2-opcache
+php8.2-zip        php8.2-intl       php8.2-bcmath
+```
+
+---
+
+## 🚀 Installation
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+- Debian or Ubuntu-based Linux distribution
+- Root or sudo access
+- Active internet connection
+- At least 1GB free disk space
 
-### Installation
+### Quick Install
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+```bash
+# Download the script
+wget https://raw.githubusercontent.com/SnokOS/Install_Web_Server_Tools/main/snok.sh
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+# Make it executable
+chmod +x snok.sh
+
+# Run with sudo
+sudo ./snok.sh
+```
+
+Or use curl:
+
+```bash
+# Download and run in one command
+curl -fsSL https://raw.githubusercontent.com/SnokOS/Install_Web_Server_Tools/main/snok.sh -o snok.sh && chmod +x snok.sh && sudo ./snok.sh
+```
+
+### Manual Installation
+
+```bash
+# Create the script file
+nano snok.sh
+
+# Paste the script content
+# Save and exit (Ctrl+X, Y, Enter)
+
+# Make executable
+chmod +x snok.sh
+
+# Run
+sudo ./snok.sh
+```
+
+---
+
+## 📖 Usage
+
+### Basic Workflow
+
+1. **Run the Script**
+   ```bash
+   sudo ./snok.sh
    ```
-3. Install NPM packages
-   ```sh
-   npm install
+
+2. **Select Language**
+   - 🇬🇧 English
+   - 🇫🇷 Français
+   - 🇸🇦 العربية
+
+3. **Choose Action**
+   - 📦 Install
+   - 🗑️ Uninstall
+   - 🚪 Exit
+
+4. **Configure Installation**
+   - Select Web Server (Apache2 / Nginx)
+   - Select Database (MariaDB / MySQL)
+   - Confirm settings
+
+5. **Wait for Completion**
+   - Automatic installation and configuration
+   - View progress in real-time
+
+6. **Access Your Server**
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+   Main Site:    http://YOUR_IP/
+   PHP Info:     http://YOUR_IP/info.php
+   phpMyAdmin:   http://YOUR_IP/phpmyadmin
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Advanced Usage
 
+#### Installation with Specific Components
 
+```bash
+# Example: Nginx + MariaDB
+# 1. Run script
+# 2. Choose Install
+# 3. Select Nginx
+# 4. Select MariaDB
+# 5. Confirm
+```
 
-<!-- USAGE EXAMPLES -->
-## Usage
+#### Logging
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+All operations are logged to:
+```bash
+/var/log/snok_webserver.log
+```
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+View logs:
+```bash
+sudo tail -f /var/log/snok_webserver.log
+```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+---
 
+## 🌍 Languages
 
+Snok Web Server supports three languages with full translation:
 
-<!-- ROADMAP -->
-## Roadmap
+### English (EN) 🇬🇧
+- Default interface language
+- Complete documentation
+- All menus and messages
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+### Français (FR) 🇫🇷
+- Interface complète en français
+- Tous les menus traduits
+- Messages d'erreur en français
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+### العربية (AR) 🇸🇦
+- واجهة كاملة بالعربية
+- جميع القوائم مترجمة
+- رسائل الخطأ بالعربية
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+---
 
+## 🗑️ Uninstallation
 
+### Two Uninstall Modes:
 
-<!-- CONTRIBUTING -->
-## Contributing
+#### 1. Complete Uninstall
+Removes everything installed by Snok:
+- All web servers
+- All databases
+- PHP and extensions
+- phpMyAdmin
+- Configuration files
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+```bash
+sudo ./snok.sh
+→ Choose "Uninstall & Clean"
+→ Choose "Complete Uninstall"
+→ Type "yes" to confirm
+```
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+#### 2. Selective Uninstall ⭐
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Remove only specific components:
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+**Web Server Selection:**
+- Remove Apache2 only
+- Remove Nginx only
+- Remove both
+- Keep web server
 
+**Database Selection:**
+- Remove MariaDB only
+- Remove MySQL only
+- Remove both
+- Keep database
 
+**Additional Options:**
+- Remove/Keep PHP
+- Remove/Keep phpMyAdmin
 
-<!-- LICENSE -->
-## License
+**Example Workflow:**
+```bash
+sudo ./snok.sh
+→ Uninstall & Clean
+→ Selective Uninstall
+→ Select Apache2 to remove
+→ Select MariaDB to remove
+→ Keep PHP
+→ Remove phpMyAdmin
+→ Confirm
+```
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+---
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## ⚙️ Configuration
 
+### Default Configurations
 
+#### Apache2
+```
+Document Root: /var/www/html
+Port: 80
+Modules: rewrite, php8.2
+```
 
-<!-- CONTACT -->
-## Contact
+#### Nginx
+```
+Document Root: /var/www/html
+Port: 80
+PHP-FPM: unix socket
+```
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+#### PHP
+```
+Version: 8.2
+FPM Pool: www-data
+Extensions: All major extensions
+```
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+#### Firewall (UFW)
+```
+SSH:   Port 22  ✅ Allowed
+HTTP:  Port 80  ✅ Allowed
+HTTPS: Port 443 ✅ Allowed
+```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Post-Installation Security
 
+#### Secure MariaDB/MySQL
+```bash
+sudo mysql_secure_installation
+```
 
+#### Set Database Root Password
+```bash
+sudo mysql
+MariaDB> ALTER USER 'root'@'localhost' IDENTIFIED BY 'your_password';
+MariaDB> FLUSH PRIVILEGES;
+MariaDB> EXIT;
+```
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+#### Secure phpMyAdmin
+Create `.htaccess` protection:
+```bash
+sudo nano /usr/share/phpmyadmin/.htaccess
+```
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Add:
+```apache
+AuthType Basic
+AuthName "Restricted Access"
+AuthUserFile /etc/phpmyadmin/.htpasswd
+Require valid-user
+```
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+Create password file:
+```bash
+sudo htpasswd -c /etc/phpmyadmin/.htpasswd admin
+```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+---
 
+## 🔧 Troubleshooting
 
+### Common Issues
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+#### 1. phpMyAdmin 404 Error
+
+**Problem:** `/phpmyadmin` returns 404
+
+**Solution:**
+```bash
+# For Apache
+sudo a2enconf phpmyadmin
+sudo systemctl reload apache2
+
+# For Nginx
+sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
+sudo systemctl reload nginx
+```
+
+#### 2. PHP Not Working
+
+**Problem:** PHP files download instead of executing
+
+**Solution:**
+```bash
+# Check PHP-FPM status
+sudo systemctl status php8.2-fpm
+
+# For Apache
+sudo a2enmod php8.2
+sudo systemctl restart apache2
+
+# For Nginx - check config
+sudo nginx -t
+sudo systemctl restart nginx php8.2-fpm
+```
+
+#### 3. Database Connection Error
+
+**Problem:** Can't connect to database
+
+**Solution:**
+```bash
+# Check service status
+sudo systemctl status mariadb  # or mysql
+
+# Restart service
+sudo systemctl restart mariadb
+
+# Check logs
+sudo tail -f /var/log/mysql/error.log
+```
+
+#### 4. Port 80 Already in Use
+
+**Problem:** Another service using port 80
+
+**Solution:**
+```bash
+# Check what's using port 80
+sudo lsof -i :80
+
+# Stop conflicting service
+sudo systemctl stop <service-name>
+```
+
+#### 5. Firewall Blocking Access
+
+**Problem:** Can't access from external network
+
+**Solution:**
+```bash
+# Check UFW status
+sudo ufw status
+
+# Ensure ports are open
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
+sudo ufw reload
+```
+
+### View Logs
+
+```bash
+# Installation log
+sudo cat /var/log/snok_webserver.log
+
+# Apache logs
+sudo tail -f /var/log/apache2/error.log
+
+# Nginx logs
+sudo tail -f /var/log/nginx/error.log
+
+# PHP-FPM logs
+sudo tail -f /var/log/php8.2-fpm.log
+
+# Database logs
+sudo tail -f /var/log/mysql/error.log
+```
+
+---
+
+## 🎨 Screenshots
+
+### Main Menu
+```
+   _____ _   _  ____  _  __  
+  / ____| \ | |/ __ \| |/ /  
+ | (___ |  \| | |  | | ' /   
+  \___ \| . ` | |  | |  <    
+  ____) | |\  | |__| | . \   
+ |_____/|_| \_|\____/|_|\_\  
+  Web Server Pro Installer
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+╔════════════════════════════════════════╗
+║  Welcome to Snok Web Server            ║
+╚════════════════════════════════════════╝
+
+  1) 📦 Install
+  2) 🗑️  Uninstall & Clean
+  3) 🚪 Exit
+```
+
+### Installation Progress
+```
+[▶] Checking root privileges...
+[✓] Success
+[▶] Detecting operating system...
+[✓] Detected: Ubuntu 22.04.3 LTS
+[▶] Installing Nginx...
+[✓] Nginx installed successfully
+```
+
+### Completion Screen
+```
+╔════════════════════════════════════════╗
+║  Installation Complete! 🎉             ║
+╚════════════════════════════════════════╝
+
+[✓] Web Server: NGINX
+[✓] Database: MARIADB
+[✓] PHP: 8.2
+
+Access:
+  🌐 http://192.168.1.106
+  📊 http://192.168.1.106/info.php
+  🗄️  http://192.168.1.106/phpmyadmin
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. **Fork the Repository**
+   - Visit: https://github.com/SnokOS/Install_Web_Server_Tools
+   
+2. **Create a Feature Branch**
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. **Commit Your Changes**
+   ```bash
+   git commit -m 'Add some AmazingFeature'
+   ```
+4. **Push to the Branch**
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+5. **Open a Pull Request**
+   - Go to: https://github.com/SnokOS/Install_Web_Server_Tools/pulls
+
+### Areas for Contribution
+
+- 🌍 Additional language translations
+- 🔧 New features and improvements
+- 🐛 Bug fixes
+- 📝 Documentation improvements
+- 🎨 UI/UX enhancements
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see below for details:
+
+```
+MIT License
+
+Copyright (c) 2024 SnokOS - Mahrez Ben Mohammed
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+---
+
+## 🙏 Acknowledgments
+
+- **Apache Software Foundation** - Apache HTTP Server
+- **NGINX Inc.** - NGINX Web Server
+- **MariaDB Foundation** - MariaDB Database
+- **Oracle Corporation** - MySQL Database
+- **PHP Development Team** - PHP Language
+- **phpMyAdmin Team** - phpMyAdmin Tool
+
+---
+
+## 📞 Support
+
+Need help? Here are some resources:
+
+- 📖 **Documentation**: This README
+- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/SnokOS/Install_Web_Server_Tools/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/SnokOS/Install_Web_Server_Tools/discussions)
+- 📧 **Email**: SnokSoft@gmail.com
+- 📱 **Phone**: +216 26 360 802
+- 🌐 **Website**: [https://snokos.github.io/SnokOS/](https://snokos.github.io/SnokOS/)
+
+---
+
+## 👨‍💻 About the Developer
+
+<div align="center">
+
+### Mahrez Ben Mohammed
+
+**Founder & Lead Developer at SnokOS**
+
+[![GitHub](https://img.shields.io/badge/GitHub-SnokOS-181717?style=for-the-badge&logo=github)](https://github.com/SnokOS)
+[![Website](https://img.shields.io/badge/Website-SnokOS-0066CC?style=for-the-badge&logo=google-chrome)](https://snokos.github.io/SnokOS/)
+[![Email](https://img.shields.io/badge/Email-SnokSoft-D14836?style=for-the-badge&logo=gmail)](mailto:SnokSoft@gmail.com)
+
+</div>
+
+**Contact Information:**
+* 📧 Email: **SnokSoft@gmail.com**
+* 📱 Tel: **+216 26 360 802**
+* 🏢 Company: **SnokOS**
+* 🌐 Website: **https://snokos.github.io/SnokOS/**
+* 💻 GitHub: **https://github.com/SnokOS**
+
+---
+
+## 🏢 About SnokOS
+
+**SnokOS** is dedicated to creating professional, open-source tools and solutions for system administrators, developers, and DevOps professionals. Our mission is to simplify complex infrastructure tasks through automation and intelligent scripting.
+
+### Our Projects:
+- 🚀 **Snok Web Server** - Professional web server installer
+- 🛠️ **System Automation Tools** - Various Linux automation scripts
+- 📦 **Development Utilities** - Tools for developers
+
+Visit our website: [https://snokos.github.io/SnokOS/](https://snokos.github.io/SnokOS/)
+
+---
+
+## 🔄 Changelog
+
+### Version 1.0.0 (2024-01-22)
+
+#### ✨ Features
+- ✅ Multi-language support (EN, FR, AR)
+- ✅ Interactive installation wizard
+- ✅ Web server selection (Apache2/Nginx)
+- ✅ Database selection (MariaDB/MySQL)
+- ✅ Complete and selective uninstall
+- ✅ Automatic firewall configuration
+- ✅ Beautiful UI with colors and icons
+- ✅ Comprehensive error handling
+- ✅ Detailed logging system
+- ✅ Support for all Debian/Ubuntu distros
+- ✅ PHP 8.2 with all extensions
+- ✅ phpMyAdmin integration
+- ✅ Responsive welcome page
+
+---
+
+## 🚀 Roadmap
+
+### Planned Features
+
+- [ ] SSL/TLS certificate setup (Let's Encrypt)
+- [ ] Docker support
+- [ ] Multiple PHP versions
+- [ ] Redis/Memcached installation
+- [ ] Git integration
+- [ ] Composer installation
+- [ ] Node.js installation
+- [ ] WordPress quick install
+- [ ] Laravel quick install
+- [ ] Database backup automation
+- [ ] Performance optimization presets
+- [ ] Additional language support
+- [ ] Web-based control panel
+
+---
+
+<div align="center">
+
+### ⭐ Star this project if you find it useful!
+
+**Made with ❤️ by [Mahrez Ben Mohammed](https://github.com/SnokOS) - SnokOS Team**
+
+[Report Bug](https://github.com/SnokOS/Install_Web_Server_Tools/issues) • [Request Feature](https://github.com/SnokOS/Install_Web_Server_Tools/issues) • [Documentation](https://github.com/SnokOS/Install_Web_Server_Tools/wiki)
+
+---
+
+### Connect with SnokOS
+
+[![GitHub](https://img.shields.io/github/followers/SnokOS?label=Follow&style=social)](https://github.com/SnokOS)
+[![Website](https://img.shields.io/badge/Visit-Website-blue)](https://snokos.github.io/SnokOS/)
+[![Email](https://img.shields.io/badge/Contact-Email-red)](mailto:SnokSoft@gmail.com)
+
+**© 2024 SnokOS. All rights reserved.**
+
+</div>
